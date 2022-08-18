@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep
 
-# initialize chrome driver
+# initialize the chrome driver
 driver = webdriver.Chrome(executable_path="C:\\chromedriver.exe")
 
 # Go to url
